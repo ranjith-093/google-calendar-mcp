@@ -11,4 +11,4 @@ COPY tsconfig.json .
 RUN bun run postinstall
 
 EXPOSE 3000/tcp
-ENTRYPOINT [ "bun", "run", "start" ]
+ENTRYPOINT [ "npm", "run", "start" ]
